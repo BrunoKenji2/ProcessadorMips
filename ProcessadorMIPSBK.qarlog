@@ -1,0 +1,52 @@
+Quartus Prime Archive log --	C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ProcessadorMIPSBK.qarlog
+
+Archive:	C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ProcessadorMIPSBK.qar
+Date:		Sun Jul 20 03:09:44 2025
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/CPU.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/CPU.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Controle.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Controle.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/DivFreq.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/DivFreq.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ExtensorBit.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ExtensorBit.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/GCD.txt
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/MUX.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/MUX2.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/MUX8.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/OutputMod.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/OutputMod.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ProcessadorMIPS.qpf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ProcessadorMIPS.qsf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ProgramCounter.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ProgramCounter.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/RAM.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/RAMDualPortDualClock.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ROM.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ROMSinglePort.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Reg.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Registradores.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ULA.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/ULA.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/UnidadeProcessamento.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform10.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform11.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform12.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform13.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform7.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform8.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/Waveform9.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/assignment_defaults.qdf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/bcd.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/brancher.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/brancher.vwf
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/seg7.v
+C:/Users/bruno/Downloads/ProcessadorMIPSBRUNAO_restored/test.txt
+	======= Total: 41 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
