@@ -754,7 +754,28 @@ halt = 1'b0;
         controleJump = 1'b0;
         controleBranch = 1'b0;
         end
-		 
+		 //DIVI
+     6'b100100:
+        begin
+        outreg = 1'b0;
+        movhi = 1'b0;
+        movlo = 1'b0;
+        controleJumpReg = 1'b0;
+        outuse = 1'b0;
+        extent = 2'b0;
+        outputreset = 1'b0;
+        controleReadRegs = 1'b1;
+        inputuse = 1'b0;
+        controleULA = 4'b0011;
+        controleImediato = 1'b1;
+        controleWriteRegs = 1'b1;
+        controleRegInput = 3'b000;
+        controleMemWrite = 1'b0;
+        controleJump = 1'b0;
+        rTD = 2'b00;
+        controleBranch = 1'b0;
+        end
+
       default:
         begin
         outreg = 1'b0;
