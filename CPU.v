@@ -62,7 +62,7 @@ wire clk;
 wire [5:0] write_addr; // Endereco de escrita do registrador destino
 wire [1:0] rTD; // Seleciona o endereco de escrita do registrador destino
 wire [7:0] JalAddress;
-
+wire [31:0] imm32;
 DivFreq DivFreq_inst(clock, clk);
 
 brancher brancher_inst(JumpAddress, controleJump, controleBranch, out1ULA, clk, pc_addr);
@@ -81,7 +81,9 @@ MUX mux_reg_write_addr(instrucao[19:14], instrucao[13:8], 6'b011111, 6'b0, rTD, 
 
 MUX8 mux_reg(out32ULA, outram, switches, instrucao[13:0], rs, JalAddress, hi, lo, controleRegWrite, regvalue32);
 
-MUX mux_imm(rt, instrucao[13:0], 32'b0, 32'b0, controleImediato, in2ula);
+ExtensorBit14 extensor_inst(instrucao[13:0], imm32);
+
+MUX mux_imm(rt, imm32, 32'b0, 32'b0, controleImediato, in2ula);
 
 ULA ULA_inst(controleULA, rs, in2ula, 32'b0, out32ULA, out64ULA, out1ULA, sign_hilo);
 

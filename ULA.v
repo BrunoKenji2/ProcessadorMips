@@ -89,7 +89,7 @@ sign_hilo = 1'b0;
 
 	4'b1001:
 		begin
-		result_32 = 32'd0;
+		result_32 = (in1 <= in2) ? 32'd1 : 32'd0;
 		result_64 = 64'd0;
 		out1 = in1 <= in2;
 		end
