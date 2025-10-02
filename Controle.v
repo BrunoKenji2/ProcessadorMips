@@ -510,7 +510,7 @@ halt = 1'b0;
 		    extent = 2'b01;
         controleBranch = 1'b0;
         end
-      //slet
+             //slt
       6'b011000:
         begin
         outreg = 1'b0;
@@ -527,7 +527,6 @@ halt = 1'b0;
         controleRegInput = 3'b000;
         controleMemWrite = 1'b0; 
         controleJump = 1'b0;
-		    extent = 2'b01;
         controleBranch = 1'b0;
         end
       //LW

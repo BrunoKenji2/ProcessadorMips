@@ -2,7 +2,7 @@ module CPU (
     input clock,
     input reset,
 	input button,
-    input [17:0] switches,
+    input [16:0] switches,
     output [6:0] display1,
     output [6:0] display2,
     output [6:0] display3,
